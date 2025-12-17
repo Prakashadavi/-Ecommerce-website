@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;900&family=New+Tegomin&family=Prata&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: "Outfit", sans-serif;
+  }
+}
+
+a.active hr {
+  display: block;
+}
+
+body {
+  color: #1f2937;        /* gray-800 */
+  background-color: #ffffff;
+}
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+@media(max-width:640px){
+  a.active{
+    background-color: black;
+    color: white;
+  }
+}
+* {
+  border-color: #9ca3af; /* gray-400 */
+}
+
+h1, h2, h3, h4, h5 {
+  color: #111827;              /* gray-900 */
+}
